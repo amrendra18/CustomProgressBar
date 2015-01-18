@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.customprogressbar.MainActivity" >
+
+    <com.example.customprogressbar.CustomProgressBar
+        android:id="@+id/CustomProgressBar6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/CustomProgressBar5"
+        android:layout_marginRight="17dp" />
+
+    <com.example.customprogressbar.CustomProgressBar
+        android:id="@+id/CustomProgressBar1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="16dp" />
+
+    <com.example.customprogressbar.CustomProgressBar
+        android:id="@+id/CustomProgressBar2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/CustomProgressBar1"
+        android:layout_alignBottom="@+id/CustomProgressBar1"
+        android:layout_alignLeft="@+id/CustomProgressBar6" />
+
+    <com.example.customprogressbar.CustomProgressBar
+        android:id="@+id/CustomProgressBar3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/CustomProgressBar4"
+        android:layout_alignBottom="@+id/CustomProgressBar4"
+        android:layout_alignLeft="@+id/CustomProgressBar1" />
+
+    <com.example.customprogressbar.CustomProgressBar
+        android:id="@+id/CustomProgressBar4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/CustomProgressBar2"
+        android:layout_centerVertical="true" />
+
+    <com.example.customprogressbar.CustomProgressBar
+        android:id="@+id/CustomProgressBar5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/CustomProgressBar3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp" />
+
+</RelativeLayout>
