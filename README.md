@@ -91,7 +91,3 @@ progressBar.setVisibility(View.VISIBLE);
 ```
 
 More cool types of progressbars can be rendered using the same custom class, so donot limit your imagination and creativity.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/amrendra18/customprogressbar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
